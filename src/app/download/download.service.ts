@@ -7,7 +7,7 @@ import { Observable } from "rxjs";
 })
 export class DownloadService {
   private rota =
-    "http://10.101.215.216:8745/CobrancaPos/Processamento/DownloadArquivosCobranca?RegistroProcessoAutoId=234264";
+    "http://localhost:9381/CobrancaPos/Processamento/DownloadArquivosCobranca?RegistroProcessoAutoId=234264";
 
   private httpOptions = {
     responseType: "blob",
